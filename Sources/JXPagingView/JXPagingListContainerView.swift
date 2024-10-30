@@ -87,7 +87,7 @@ public extension JXPagingListContainerViewDataSource {
     func scrollViewClass(in listContainerView: JXPagingListContainerView) -> AnyClass? { nil }
 }
 
-protocol JXPagingListContainerViewDelegate: NSObjectProtocol {
+public protocol JXPagingListContainerViewDelegate: NSObjectProtocol {
     func listContainerViewDidScroll(_ listContainerView: JXPagingListContainerView)
     func listContainerViewWillBeginDragging(_ listContainerView: JXPagingListContainerView)
     func listContainerViewDidEndScrolling(_ listContainerView: JXPagingListContainerView)
