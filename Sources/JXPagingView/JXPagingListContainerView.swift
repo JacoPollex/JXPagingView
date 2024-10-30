@@ -94,7 +94,7 @@ public protocol JXPagingListContainerViewDelegate: NSObjectProtocol {
     func listContainerView(_ listContainerView: JXPagingListContainerView, listDidAppearAt index: Int)
 }
 
-extension JXPagingListContainerViewDelegate {
+public extension JXPagingListContainerViewDelegate {
     
     func listContainerViewDidScroll(_ listContainerView: JXPagingListContainerView) {}
     func listContainerViewWillBeginDragging(_ listContainerView: JXPagingListContainerView) {}
