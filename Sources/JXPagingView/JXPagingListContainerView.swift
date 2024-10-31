@@ -132,7 +132,7 @@ open class JXPagingListContainerView: UIView {
             currentIndex = defaultSelectedIndex
         }
     }
-    weak var delegate: JXPagingListContainerViewDelegate?
+    open weak var delegate: JXPagingListContainerViewDelegate?
     public private(set) var currentIndex: Int = 0
     private var collectionView: UICollectionView!
     private var containerVC: JXPagingListContainerViewController!
